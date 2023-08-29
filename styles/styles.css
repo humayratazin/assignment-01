@@ -3,23 +3,21 @@ body{
      font-family: 'Lato', sans-serif;
      font-family: 'Open Sans', sans-serif;
 }
-.button{
-     background: #E55473;
-     display: inline-flex;
-     padding: 20px 43px;
-     align-items: flex-start;
-     gap: 10px;
-     border-radius: 8px;
-     
+.head-section{
+     margin-left: 400px;
 }
 
 /* styles for header */
 
 .head{
-     padding:30px 30px 0px 150px ;
+     padding:30px 30px 150px ;
      display: flex;
      align-items: center;
      justify-content: space-between;
+     width: 1950px;
+     height: 800px;
+     background-color: rgba(229, 84, 115, 0.1);
+     padding-left: 240px;
 }
 .head-contant{
      max-width: 500px;
@@ -30,4 +28,34 @@ body{
      font-weight: 800;
      margin-top: 5px;
      margin-bottom: 20px;
+     width: 800px;
+     padding-top: 197px;
+}
+.head-discription{
+     color: #27272799;
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 30px;
+     width: 630px;
+     height: 90px;
+}     
+.button{
+     background: #E55473;
+     border: none;
+     display: inline-flex;
+     padding: 20px 43px ;
+     align-items: flex-start;
+     gap: 10px;
+     border-radius: 8px;
+     color: #FFF;
+     font-size: 20px;
+     font-weight: 700;
+}     
+.head-photo{
+     width: 635px;
+     height: 800px;
+     margin-top: 307px;
+     margin-right: 240px;
+     background: url(<path-to-image>) cover no-repeat;
+     
 }
